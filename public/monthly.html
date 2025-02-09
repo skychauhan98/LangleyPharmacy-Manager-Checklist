@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Langley Pharmacy - Login/Create</title>
+</head>
+<body>
+  <h1>Langley Pharmacy</h1>
+  <h2>Login</h2>
+  <form action="/login" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required><br/>
+    <label>Password:</label>
+    <input type="password" name="password" required><br/><br/>
+    <button type="submit">Login</button>
+  </form>
+
+  <hr/>
+  <h2>Create Account</h2>
+  <p>Only <strong>skychauhan98work@gmail.com</strong> and <strong>pindsbains@gmail.com</strong> can create an account.</p>
+  <form action="/createaccount" method="POST">
+    <label>Email:</label>
+    <input type="email" name="email" required><br/>
+    <label>Password:</label>
+    <input type="password" name="password" required><br/><br/>
+    <button type="submit">Create Account</button>
+  </form>
+</body>
+</html>
